@@ -1,0 +1,104 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<link herf="jquery-ui.css" rel="stylesheet" />
+<script src="jquery-ui.js"></script>
+
+
+<div>
+    <table style="width:60%" margin="0px,0px,0px,50px">
+        <tr><td>Search:</td><td><input id="savebtn" type="button" value="Save" /><input id="combtn" type="button" value="Compare" /></td></tr>
+        <tr><td>Product</td><td>Project</td></tr>
+
+        <tr><td>Product Type</td><td><input id="hidebtn" type="button" value="Show" /></td></tr>
+        <tr><td>Model Year:</td><td><input id="Text1" type="text" /><input id="Text2" type="text" /></td></tr>
+
+        <tr><td>Technical Specifications</td><td><input id="hide2btn" type="button" value="Show" /></td></tr>
+    </table>
+    <div class="rangeBox">
+        <div class="item">
+            <div class="title">Airflow(CFM)<input type="text" name="title1"></div>
+
+            <div class="slider">
+                <input id="slider1" type="range" name="slider1" min="0" max="10">
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="title">Max Power<input type="text" name="title2"></div>
+            <div class="slider">
+                <input id="slider2" type="range" name="slider2" min="0" max="10">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">Sound at max speed<input type="text" name="title3"></div>
+            <div class="slider">
+                <input id="slider3" type="range" name="slider3" min="0" max="10">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">Fan sweep diameter<input type="text" name="title4"></div>
+            <div class="slider">
+                <input id="slider4" type="range" name="slider4" min="0" max="10">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="productShow">
+    <div><input type="image"/></div>
+    <div><input id="manufacName" type="text" />@ViewBag.manufacName</div>
+    <div><input type="text" value="S315-S0-00055"></div>
+    <table>
+        <tr>
+            <td><input type="text" id="airFlow" /></td><td><input type="text" class="TypeValue" /></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="maxPower" /></td><td><input type="text" class="TypeValue" /></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="dBA" /></td><td><input type="text" class="TypeValue" /></td>
+        </tr>
+        <tr>
+            <td><input type="text" id="fanSweep" /></td><td><input type="text" class="TypeValue" /></td>
+        </tr>
+    </table>
+    <div><input id="Checkbox1" type="checkbox"/>Compare <input id="Button1" type="button" value="Add To" /></div>
+</div>
+
+<script type="text/javascript">
+ 
+  
+    $(document).ready(function (event, ui) {
+        $('#slider1').change(function () {
+            var value = $(this).val(ui.value);
+            $('#title1').val(value);
+        });
+    });
+    $(document).ready(function (event, ui) {
+        $('#slider2').change(function () {
+            var value = $(this).val(ui.value);
+            $('#title2').val(value);
+        });
+    });
+    $(document).ready(function (event, ui) {
+        $('#slider3').change(function () {
+            var value = $(this).val(ui.value);
+            $('#title3').val(value);
+        });
+    });
+    $(document).ready(function (event, ui) {
+        $('#slider4').change(function () {
+            var value = $(this).val(ui.value);
+            $('#title4').val(value);
+        });
+    });
+
+  
+</script>

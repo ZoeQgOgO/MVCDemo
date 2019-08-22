@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce2466c5cee343139da1d28d1e360322" Name="Diagram1">
+        <EntityTypeShape EntityType="Joole_TeamModel.tblCategory" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblManufacturer" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblProduct" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblSubCategory" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblType" Width="1.5" PointX="7.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblTypeOptValue" Width="1.5" PointX="9.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblTypeSpecValue" Width="1.5" PointX="9.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Joole_TeamModel.tblUser" Width="1.5" PointX="2.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblSubCat__Categ__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblSubCat__Categ__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblSubCat__Categ__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblSubCat__Categ__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblSubCat__Categ__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblProduc__SubCa__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblProduc__SubCa__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblProduc__SubCa__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblProduc__SubCa__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblProduc__SubCa__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblType__Product__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblType__Product__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblType__Product__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblType__Product__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblType__Product__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeOp__TypeI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeOp__TypeI__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeOp__TypeI__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeOp__TypeI__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeOp__TypeI__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeSp__TypeI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeSp__TypeI__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeSp__TypeI__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeSp__TypeI__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="Joole_TeamModel.FK__tblTypeSp__TypeI__7A672E12" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
